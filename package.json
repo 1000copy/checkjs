@@ -1,12 +1,19 @@
 {
   "name": "checkerrorjs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "node ."
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/1000copy/checkjs.git"
+  },
   "keywords": [],
-  "author": "1000copy@gmail.com",
-  "license": "gpl 3.0"
+  "license": "gpl 3.0",
+  "bugs": {
+    "url": "https://github.com/1000copy/checkjs/issues"
+  },
+  "homepage": "https://github.com/1000copy/checkjs"
 }
