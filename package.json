@@ -1,0 +1,12 @@
+{
+  "name": "checkerrorjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ."
+  },
+  "keywords": [],
+  "author": "1000copy@gmail.com",
+  "license": "gpl 3.0"
+}
