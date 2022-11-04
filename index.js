@@ -1,1 +1,2 @@
-const hs= require('./test/check.js')
+const check = require('./lib/check.js')
+module.exports = check;
