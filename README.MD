@@ -7,7 +7,7 @@
 3. 默认不打印错误堆栈
 
 ## 调用案例
-        
+
         var check = require('../lib/check.js')
         check({a:1},{a:1},'object')
         // t([1]===[1])
@@ -36,4 +36,4 @@
 
 ## License 
 
-(gpl3.0)[LICENSE]
+[gpl3.0](LICENSE)
