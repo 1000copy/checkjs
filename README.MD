@@ -1,16 +1,15 @@
 ## Checkjs
 
-极简的断言框架，表现在：
+Checkjs is a extremly simplize assert framework.talk in detail here :
 
-1. 一个函数搞定assert的各种情况。
-2. 输出内容极简。仅仅显示当前的check结果。如果assert是对的，那么什么也不输出
-3. 默认不打印错误堆栈
+1. one function `check()` vs. any condition of assert,such as equal,deepEqual,noEqual.
+2. assert output is as simple as possible.It will not print any message if assert is ok.it will not print error stack unless you config it.
 
-## 调用案例
+## Exmaple
 
-        var check = require('../lib/check.js')
+
+        var check = require('check')
         check({a:1},{a:1},'object')
-        // t([1]===[1])
         var y = [1,2,3]
         check('1','1','string')
         check(1,1,'number')
@@ -19,21 +18,14 @@
         check([1,[2],3],[1,[2],3],'deep array')
         check(3,Object.keys(y).length,'len',true)//if trace:true then print stacktree
 
+## usage
 
-说明 ： check(value1,value2,msg,trace)
+Call this function to check if variable of value1 equal (or deep equal) to value1.if false then print `msg' message to console,if trace is true then print call stack.
 
-判断value1和value2是否相等，可以输入数字字符串数组对象，如果不等就打印msg消息，如果trace为true，就打印错误堆栈。
-
-## TODO
-
-
-
-## 工作日志
-
-
-## 更多场景
-
+        function prototype:check(value1,value2,msg,trace)
+parameter value1 and value1 is required ,and `msg` and `trace' is  optional.
 
 ## License 
 
 [gpl3.0](LICENSE)
+
