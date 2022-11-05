@@ -5,7 +5,7 @@ Checkjs is a extremly simplize assert framework.talk in detail here :
 1. one function `check()` vs. any condition of assert,such as equal,deepEqual,noEqual.
 2. assert output is as simple as possible.It will not print any message if assert is ok.it will not print error stack unless you config it.
 
-## Exmaple
+## Example code
 
 
         var check = require('check')
@@ -18,7 +18,7 @@ Checkjs is a extremly simplize assert framework.talk in detail here :
         check([1,[2],3],[1,[2],3],'deep array')
         check(3,Object.keys(y).length,'len',true)//if trace:true then print stacktree
 
-## usage
+## Usage
 
 Call this function to check if variable of value1 equal (or deep equal) to value1.if false then print `msg' message to console,if trace is true then print call stack.
 
